@@ -25,11 +25,8 @@ public class SingleTon {
     public static SingleTon getInstance(){
         if(instance==null){
             instance = new SingleTon();
-            return instance;
-        }else{
-            System.err.println("It is not allowed to make more than one instance of the Singleton Class!");
-            return null;
         }
+        return instance;
     }
 
 }
