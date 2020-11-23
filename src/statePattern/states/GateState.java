@@ -1,4 +1,4 @@
-package statePattern.gateStatePattern.states;
+package statePattern.states;
 
 public interface GateState {
     void enter();

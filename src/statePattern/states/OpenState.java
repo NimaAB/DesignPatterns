@@ -1,8 +1,6 @@
-package statePattern.gateStatePattern.states;
+package statePattern.states;
 
-import statePattern.gateStatePattern.Gate;
-import statePattern.gateStatePattern.states.CloseState;
-import statePattern.gateStatePattern.states.GateState;
+import statePattern.Gate;
 
 public class OpenState implements GateState {
     private Gate gate;

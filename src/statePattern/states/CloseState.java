@@ -1,6 +1,6 @@
-package statePattern.gateStatePattern.states;
+package statePattern.states;
 
-import statePattern.gateStatePattern.Gate;
+import statePattern.Gate;
 
 public class CloseState implements GateState {
     private Gate gate;
