@@ -1,6 +1,5 @@
 package statePattern;
 
-import statePattern.gateStatePattern.states.*;
 import statePattern.states.CloseState;
 import statePattern.states.GateState;
 
